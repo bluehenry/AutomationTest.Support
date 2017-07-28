@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoTestLib", "AutoTestLib\AutoTestLib.csproj", "{464727A9-3027-4850-B393-499F044A269C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoTestLib", "Tests\AutoTestLib.csproj", "{C2A73D59-1322-4975-AE42-526E67C508DA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{464727A9-3027-4850-B393-499F044A269C} = {464727A9-3027-4850-B393-499F044A269C}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{448F754E-E92F-474E-9996-5E55C3259260}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{464727A9-3027-4850-B393-499F044A269C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{464727A9-3027-4850-B393-499F044A269C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{464727A9-3027-4850-B393-499F044A269C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{464727A9-3027-4850-B393-499F044A269C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2A73D59-1322-4975-AE42-526E67C508DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2A73D59-1322-4975-AE42-526E67C508DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2A73D59-1322-4975-AE42-526E67C508DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2A73D59-1322-4975-AE42-526E67C508DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C2A73D59-1322-4975-AE42-526E67C508DA} = {448F754E-E92F-474E-9996-5E55C3259260}
+	EndGlobalSection
+EndGlobal
